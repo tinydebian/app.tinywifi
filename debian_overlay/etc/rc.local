@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f /usr/local/sbin/start.sh ]; then
+	/usr/local/sbin/start.sh &
+fi
+
+exit 0
+
